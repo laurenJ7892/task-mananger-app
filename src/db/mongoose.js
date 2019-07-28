@@ -1,8 +1,10 @@
 const mongoose = require('mongoose');
 
-mongoose.connect(process.env.MONGO_DB, {
+const data = process.env.MONGO_DB;
+console.log(data);
+
+mongoose.connect(data, {
     useNewUrlParser: true,
     useCreateIndex: true,
     useFindAndModify: false
-})
-git 
+});
