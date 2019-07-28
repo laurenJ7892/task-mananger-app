@@ -19,8 +19,8 @@
     "nodemon": "^1.18.9"
   },
   "scripts": {
-    "start": "node src/index.js",
-    "dev": "env-cmd ./config/dev.env nodemon src/index.js"
+    "start": "node src/Index.js",
+    "dev": "env-cmd ./config/dev.env nodemon src/Index.js"
   },
   "author": "",
   "license": "ISC"
