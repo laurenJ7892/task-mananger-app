@@ -1,7 +1,7 @@
 // Crud create, read, update delete
 const {MongoClient, ObjectID} = require('mongodb')
 
-const connectionURL = process.env.MONGODB_URL
+const connectionURL = 'http://127.0.0.1:27017/'
 const databaseName = 'task-manager'
 
 // asynchronous connection to DB
